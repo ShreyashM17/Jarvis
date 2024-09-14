@@ -12,8 +12,8 @@ listener = sr.Recognizer()
 listener.pause_threshold = 0.5
 talk = pyttsx3.init('sapi5')
 say = ""
-verified = True
-
+verified = False
+password = '' #Enter your password here
 
 def initialize_jarvis():
     print("Initializing Jarvis...")
@@ -45,8 +45,8 @@ while not verified:
     if name in command: 
         voice.friday(f"Hello {name}, can you please verify yourself by typing the password")
         for i in range(3):
-            password = input()
-            if password == "1722":
+            password_check = input()
+            if password_check == password:
                 verified = True
                 voice.friday("Password correct")
                 initialize_jarvis()
