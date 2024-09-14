@@ -6,7 +6,5 @@ psutil==5.9.8
 pygame==2.0.1
 pyttsx3==2.90
 Requests==2.32.3
-scikit_learn==1.5.2
-spacy==3.7.4
 SpeechRecognition==3.8.1
 word2number==1.1
