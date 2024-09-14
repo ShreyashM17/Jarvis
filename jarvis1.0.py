@@ -41,8 +41,9 @@ def initialize_jarvis():
 while not verified:
     voice.friday("hello May I know who are you")
     command = voice.take_command()
-    if "shre" in command:
-        voice.friday("Hello Shreyash, can you please verify yourself by typing the password")
+    name = ""  #Enter your name here
+    if name in command: 
+        voice.friday(f"Hello {name}, can you please verify yourself by typing the password")
         for i in range(3):
             password = input()
             if password == "1722":
