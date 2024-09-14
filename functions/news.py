@@ -5,7 +5,7 @@ from newsapi import NewsApiClient
 
 
 def news(category='general', description=False):
-    newsapi = NewsApiClient(api_key='676a27920acb4b998181489e7a362160')
+    newsapi = NewsApiClient(api_key='key')  #Enter your API Key here
     top_headlines = newsapi.get_top_headlines(language='en', category=category, country='in')
     speak(f"Top {category} news are")
     if description:
