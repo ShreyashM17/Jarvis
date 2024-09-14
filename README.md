@@ -8,7 +8,7 @@ It is completely written in Python, with features listed down below. You need to
 - Play, pause, next, previous of your device music
 - Give the command to search on any browser
 - you can check your battery status as well
-- Explore all the code and edit as you live
+- Explore all the code and edit as you like
 
 ## To start Jarvis
 ##### Install all dependencies from requirements.txt
