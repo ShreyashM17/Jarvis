@@ -14,9 +14,7 @@ class commands:
             }},
             {'terminate': {'heard': ['bye', 'bye jarvis', 'terminate', 'turn off jarvis', 'end jarvis'],
                            'say': ['bye sir']}},
-        ]}
-
-"""{'news': {
+                {'news': {
             'heard': ['top news', 'tell me todays headlines', 'what are the top news', 'headlines',
                       'what are top headlines', 'what is happening around the world',
                       'what are progress in science', 'what are progress in tech',
@@ -63,5 +61,6 @@ class commands:
                           'open calci', 'start calci', 'start math mode', 'initialize math mode',
                           'initialize calculator', 'initialize calculator mode'],
                 'say': ['initializing math mode', 'starting calculator', 'shifting to math mode',
-                        'shifting to calculation mode', 'initializing calculator']}},"""
+                        'shifting to calculation mode', 'initializing calculator']}}
+        ]}
 
