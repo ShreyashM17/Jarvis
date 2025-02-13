@@ -15,7 +15,7 @@ def stop():
 
 def music_player(command, a):
     mixer.init()
-    os.chdir(r"C:\Users\Shreyash\Music")
+    os.chdir(r"C:\Users\UserName\Music")
     loc = os.listdir()
     activity = []
     if 'stop' in command:
